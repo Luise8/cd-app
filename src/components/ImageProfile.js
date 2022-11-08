@@ -10,7 +10,7 @@ class ImageProfile extends Component {
 
     this.state = {
       activeImage: true,
-      directionImage: example.imageProfile,
+      directionImage: example.imageProfile.avatar,
     };
   }
 
@@ -49,6 +49,7 @@ class ImageProfile extends Component {
                 onClick={this.handleToggle}
                 className="image-profile"
                 src={directionImage}
+                atl="Profile image"
               ></img>
               <input
                 className="input-image-profile"

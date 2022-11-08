@@ -1,4 +1,5 @@
 // Const with component default values
+import avatar from "../avatar.png";
 
 const example = {
   contactInformation: [
@@ -8,7 +9,7 @@ const example = {
     { key: "linkedin", text: "Add your Linkedin" },
     { key: "website", text: "Add your website" },
   ],
-  imageProfile: "cv-app/images/avatar.png",
+  imageProfile: { avatar },
   mainInformation: [
     { key: "fullName", text: "Add your full name" },
     {
@@ -74,7 +75,6 @@ const example = {
       {
         key: "dateFrom",
         text: "2010-11-15",
-        tag: "p",
         tag: "p",
         className: "smallest-paragraph right-main-smallest-paragraph date",
       },
